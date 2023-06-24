@@ -1,1 +1,25 @@
 /*styling the author card*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Fira Sans", sans-serif;
+    line-height: 1.6;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.card {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    background: #005e9b;
+    color: white;
+    text-align: center;
+    padding: 2em;
+}
